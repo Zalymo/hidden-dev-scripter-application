@@ -1,5 +1,8 @@
 -- Roblox name: Trialon, Discord name: trialon
 
+-- HOLD F TO ADD SEGMENTS TO RING. HOLD R TO REDUCE SEGMENTS.
+-- HOLD Q TO DECREASE VERTICAL OFFSET. HOLD E TO INCREASE VERTICAL OFFSET.
+
 -- For my submission, I chose to create a ring of colorful parts around the player.
 -- They orbit around the player's character and continuously have their angle
 -- adjusted to keep the formation looking "ring-like". The ring is adjustable
