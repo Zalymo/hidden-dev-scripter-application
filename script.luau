@@ -3,9 +3,14 @@
 -- HOLD F TO ADD SEGMENTS TO RING. HOLD R TO REDUCE SEGMENTS.
 -- HOLD Q TO DECREASE VERTICAL OFFSET. HOLD E TO INCREASE VERTICAL OFFSET.
 
+-- In this demo, I wanted to demonstrate my undertanding of multiple common roblox libraries:
+-- CFrame, Tween, Vector3, UserInputService, RunService, ColorSequences, math functions, etc.
+
 -- For my submission, I chose to create a ring of colorful parts around the player.
 -- They orbit around the player's character and continuously have their angle
 -- adjusted to keep the formation looking "ring-like". The ring is adjustable
+
+-- To meet the 200 line minimum, I added a simple stair generation, which makes extensive use of CFrame, Vector3, and TweenService.
 
 -- They are welded to a base part using a Motor6D to allow for additional control of all parts
 -- at once without having to utilize complex math equations
