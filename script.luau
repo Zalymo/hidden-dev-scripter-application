@@ -10,10 +10,10 @@
 -- They orbit around the player's character and continuously have their angle
 -- adjusted to keep the formation looking "ring-like". The ring is adjustable
 
--- To meet the 200 line minimum, I added a simple stair generation, which makes extensive use of CFrame, Vector3, and TweenService.
+-- The ring segments are welded to a base part using a Motor6D to allow for additional control of all parts
+-- at once without having to utilize complex math equations.
 
--- They are welded to a base part using a Motor6D to allow for additional control of all parts
--- at once without having to utilize complex math equations
+-- To meet the 200 line minimum, I added a simple stair generation near the bottom, which makes extensive use of CFrame, Vector3, and TweenService.
 
 local userInputService = game:GetService("UserInputService")
 local tweenService = game:GetService("TweenService")
