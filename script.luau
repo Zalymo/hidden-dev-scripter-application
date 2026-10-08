@@ -1,3 +1,5 @@
+-- Roblox name: Trialon, Discord name: trialon
+
 -- For my submission, I chose to create a ring of colorful parts around the player.
 -- They orbit around the player's character and continuously have their angle
 -- adjusted to keep the formation looking "ring-like". The ring is adjustable
